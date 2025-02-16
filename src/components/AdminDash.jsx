@@ -34,9 +34,7 @@ const AdminDash = () => {
             <li className="nav-item">
               <Link className="nav-link text-white fs-5  me-3" to="/admin/product">Products</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link text-white fs-5  me-3" to="/admin/blog">Blog</Link>
-            </li>
+          
             <li className="nav-item">
               <Link className="nav-link text-white fs-5  me-3" to="/admin/contact">Contact</Link>
             </li>

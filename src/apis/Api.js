@@ -53,18 +53,11 @@ export const createBlogApi = (data) => Api.post('/api/blog/create_blog', data, c
 //delete product API
 export const deleteUserApi = (id ) => Api.delete(`/api/user/delete_user/${id}`)
 
-//get single blog API
-export const getSingleBlogApi = (id) => Api.get(`/api/blog/get_blog/${id}`)
 
-// create blog api
-export const deleteBlogApi = (id) => Api.delete(`/api/blog/delete_blog/${id}`)
-//update blog API with ID
-export const updateBlogApi =(id, formData) => Api.put(`/api/blog/update_product/${id}`, formData, config)
 
 //update user API with ID
 export const updateUserApi =(id, formData) => Api.put(`/api/user/update_user/${id}`, formData, config)
-//get all user
-export const getAllBlogsApi = () => Api.get('/api/blog/get_blog' )
+
 
 // Create product API
 export const createProductApi = (data) => Api.post('/api/product/create_product', data, config )
